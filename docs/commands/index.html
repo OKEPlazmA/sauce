@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Commands - Sauce Discord Bot</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Commands";
+    var mkdocs_page_input_path = "commands.md";
+    var mkdocs_page_url = "/commands/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Sauce Discord Bot</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../setup/">Setup</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Commands</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#table-of-contents">Table Of Contents</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#administration">Administration</a></li>
+        
+            <li><a class="toctree-l3" href="#botowners">Botowners</a></li>
+        
+            <li><a class="toctree-l3" href="#crime">Crime</a></li>
+        
+            <li><a class="toctree-l3" href="#gambling">Gambling</a></li>
+        
+            <li><a class="toctree-l3" href="#general">General</a></li>
+        
+            <li><a class="toctree-l3" href="#system">System</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Sauce Discord Bot</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Commands</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/OKEPlazmA/sauce/"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>All commands are catagorized by groups. Each of the following sections is a group.</p>
+<p>The syntax of the command usage is:</p>
+<p><code>Optional paramater: []</code></p>
+<p><code>Required paramater: &lt;&gt;</code></p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#administration">Administration</a></li>
+<li><a href="#botowners">Botowners</a></li>
+<li><a href="#crime">Crime</a></li>
+<li><a href="#gambling">Gambling</a></li>
+<li><a href="#general">General</a></li>
+<li><a href="#system">System</a></li>
+</ul>
+<h3 id="administration">Administration</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Addrank</td>
+<td>Add a rank.</td>
+<td><code>$addrank &lt;@role&gt; &lt;cashRequired&gt;</code></td>
+</tr>
+<tr>
+<td>Modifycash</td>
+<td>Allows you to modify the cash of any member.</td>
+<td><code>$modifycash &lt;amount&gt; [@member]</code></td>
+</tr>
+<tr>
+<td>Removerank</td>
+<td>Remove a rank role.</td>
+<td><code>$removerank &lt;@role&gt;</code></td>
+</tr>
+<tr>
+<td>Reset</td>
+<td>Resets all user data in your server.</td>
+<td><code>$reset</code></td>
+</tr>
+<tr>
+<td>Resetuser</td>
+<td>Reset any member's data.</td>
+<td><code>$resetuser [@member]</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="botowners">Botowners</h3>
+<p>These commands may only be used by the owners of Sauce.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dm</td>
+<td>DM any user.</td>
+<td><code>$dm &lt;@user&gt; &lt;message&gt;</code></td>
+</tr>
+<tr>
+<td>Eval</td>
+<td>Evalute JavaScript code.</td>
+<td><code>$eval &lt;code&gt;</code></td>
+</tr>
+<tr>
+<td>Massannounce</td>
+<td>Mass announce a message accross all guilds.</td>
+<td><code>$massannounce &lt;message&gt;</code></td>
+</tr>
+<tr>
+<td>Send</td>
+<td>Send a message in any channel.</td>
+<td><code>$send &lt;channel&gt; &lt;message&gt;</code></td>
+</tr>
+<tr>
+<td>Updateuser</td>
+<td>Update any user in the Sauce database.</td>
+<td><code>$updateuser &lt;@user&gt; &lt;guild&gt; &lt;update&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="crime">Crime</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bully</td>
+<td>Bully any user by changing their nickname.</td>
+<td><code>$bully &lt;@member&gt; &lt;nickname&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="gambling">Gambling</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25+</td>
+<td>Roll 25.00 or higher on a 100.00 sided die to win 0.2X your bet.</td>
+<td><code>$25+ &lt;bet&gt;</code></td>
+</tr>
+<tr>
+<td>55x2</td>
+<td>Roll 55.0 or higher on a 100.00 sided die to win your bet.</td>
+<td><code>$55x2 &lt;bet&gt;</code></td>
+</tr>
+<tr>
+<td>75+</td>
+<td>Roll 75.00 or higher on a 100.00 sided die to win 2.6X your bet.</td>
+<td><code>$75+ &lt;bet&gt;</code></td>
+</tr>
+<tr>
+<td>99+</td>
+<td>Roll 99.00 or higher on a 100.00 sided die to win 90X your bet.</td>
+<td><code>$99+ &lt;bet&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="general">General</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cash</td>
+<td>View the wealth of anyone.</td>
+<td><code>$cash [@member]</code></td>
+</tr>
+<tr>
+<td>Leaderboards</td>
+<td>View the richest Drug Traffickers.</td>
+<td><code>$leaderboards</code></td>
+</tr>
+<tr>
+<td>Rank</td>
+<td>View the rank of anyone.</td>
+<td><code>$rank [@member]</code></td>
+</tr>
+<tr>
+<td>Ranks</td>
+<td>View all ranks in this guild.</td>
+<td><code>$ranks</code></td>
+</tr>
+<tr>
+<td>Transfer</td>
+<td>Transfer money to any member.</td>
+<td><code>$transfer &lt;@member&gt; &lt;transfer&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="system">System</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Help</td>
+<td>All command information.</td>
+<td><code>$help [command]</code></td>
+</tr>
+<tr>
+<td>Invite</td>
+<td>Add Sauce to your server.</td>
+<td><code>$invite</code></td>
+</tr>
+<tr>
+<td>Statistics</td>
+<td>Statistics about Sauce.</td>
+<td><code>$statistics</code></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../setup/" class="btn btn-neutral" title="Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/OKEPlazmA/sauce" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../setup/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

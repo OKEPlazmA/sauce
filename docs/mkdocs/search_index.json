@@ -1,0 +1,64 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to DEA\n\n\nAdd DEA to your Server\n\n\nOfficial Support Server\n\n\nDEA is a multi-purpose Discord Bot mainly known for it's infamous Cash & Reputation System, allowing you to compete with your friends to become the richest in the server.\n\n\nFor information on how to setup this bot in your server, click \nhere\n.\n\n\nIf you want to view all the command information, click \nhere\n.",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-dea",
+            "text": "Add DEA to your Server  Official Support Server  DEA is a multi-purpose Discord Bot mainly known for it's infamous Cash & Reputation System, allowing you to compete with your friends to become the richest in the server.  For information on how to setup this bot in your server, click  here .  If you want to view all the command information, click  here .",
+            "title": "Welcome to DEA"
+        },
+        {
+            "location": "/setup/",
+            "text": "Cash System Setup\n\n\nThe DEA Cash System is based around chatting. The more you chat, the more money you get, and what better way to show off how rich you are then to have a nice rank.\n\n\nYou have add rank roles with the following command: \n$addrank @Noob 500\n. This will give any user that gets $500.00 the Noob role. You can add as many ranks as you like, with zero limitations. If you wish to remove a rank, you can do so with the \n$removerank @Noob\n command.",
+            "title": "Setup"
+        },
+        {
+            "location": "/setup/#cash-system-setup",
+            "text": "The DEA Cash System is based around chatting. The more you chat, the more money you get, and what better way to show off how rich you are then to have a nice rank.  You have add rank roles with the following command:  $addrank @Noob 500 . This will give any user that gets $500.00 the Noob role. You can add as many ranks as you like, with zero limitations. If you wish to remove a rank, you can do so with the  $removerank @Noob  command.",
+            "title": "Cash System Setup"
+        },
+        {
+            "location": "/commands/",
+            "text": "All commands are catagorized by groups. Each of the following sections is a group.\n\n\nThe syntax of the command usage is:\n\n\nOptional paramater: []\n\n\nRequired paramater: <>\n\n\nTable Of Contents\n\n\n\n\nAdministration\n\n\nBotowners\n\n\nCrime\n\n\nGambling\n\n\nGeneral\n\n\nSystem\n\n\n\n\nAdministration\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\nAddrank\n\n\nAdd a rank.\n\n\n$addrank <@role> <cashRequired>\n\n\n\n\n\n\nModifycash\n\n\nAllows you to modify the cash of any member.\n\n\n$modifycash <amount> [@member]\n\n\n\n\n\n\nRemoverank\n\n\nRemove a rank role.\n\n\n$removerank <@role>\n\n\n\n\n\n\nReset\n\n\nResets all user data in your server.\n\n\n$reset\n\n\n\n\n\n\nResetuser\n\n\nReset any member's data.\n\n\n$resetuser [@member]\n\n\n\n\n\n\n\n\nBotowners\n\n\nThese commands may only be used by the owners of DEA.\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\nDm\n\n\nDM any user.\n\n\n$dm <@user> <message>\n\n\n\n\n\n\nEval\n\n\nEvalute JavaScript code.\n\n\n$eval <code>\n\n\n\n\n\n\nMassannounce\n\n\nMass announce a message accross all guilds.\n\n\n$massannounce <message>\n\n\n\n\n\n\nSend\n\n\nSend a message in any channel.\n\n\n$send <channel> <message>\n\n\n\n\n\n\nUpdateuser\n\n\nUpdate any user in the DEA database.\n\n\n$updateuser <@user> <guild> <update>\n\n\n\n\n\n\n\n\nCrime\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\nBully\n\n\nBully any user by changing their nickname.\n\n\n$bully <@member> <nickname>\n\n\n\n\n\n\n\n\nGambling\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\n25+\n\n\nRoll 25.00 or higher on a 100.00 sided die to win 0.2X your bet.\n\n\n$25+ <bet>\n\n\n\n\n\n\n55x2\n\n\nRoll 55.0 or higher on a 100.00 sided die to win your bet.\n\n\n$55x2 <bet>\n\n\n\n\n\n\n75+\n\n\nRoll 75.00 or higher on a 100.00 sided die to win 2.6X your bet.\n\n\n$75+ <bet>\n\n\n\n\n\n\n99+\n\n\nRoll 99.00 or higher on a 100.00 sided die to win 90X your bet.\n\n\n$99+ <bet>\n\n\n\n\n\n\n\n\nGeneral\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\nCash\n\n\nView the wealth of anyone.\n\n\n$cash [@member]\n\n\n\n\n\n\nLeaderboards\n\n\nView the richest Drug Traffickers.\n\n\n$leaderboards\n\n\n\n\n\n\nRank\n\n\nView the rank of anyone.\n\n\n$rank [@member]\n\n\n\n\n\n\nRanks\n\n\nView all ranks in this guild.\n\n\n$ranks\n\n\n\n\n\n\nTransfer\n\n\nTransfer money to any member.\n\n\n$transfer <@member> <transfer>\n\n\n\n\n\n\n\n\nSystem\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\nHelp\n\n\nAll command information.\n\n\n$help [command]\n\n\n\n\n\n\nInvite\n\n\nAdd DEA to your server.\n\n\n$invite\n\n\n\n\n\n\nStatistics\n\n\nStatistics about DEA.\n\n\n$statistics",
+            "title": "Commands"
+        },
+        {
+            "location": "/commands/#table-of-contents",
+            "text": "Administration  Botowners  Crime  Gambling  General  System",
+            "title": "Table Of Contents"
+        },
+        {
+            "location": "/commands/#administration",
+            "text": "Command  Description  Usage      Addrank  Add a rank.  $addrank <@role> <cashRequired>    Modifycash  Allows you to modify the cash of any member.  $modifycash <amount> [@member]    Removerank  Remove a rank role.  $removerank <@role>    Reset  Resets all user data in your server.  $reset    Resetuser  Reset any member's data.  $resetuser [@member]",
+            "title": "Administration"
+        },
+        {
+            "location": "/commands/#botowners",
+            "text": "These commands may only be used by the owners of DEA.     Command  Description  Usage      Dm  DM any user.  $dm <@user> <message>    Eval  Evalute JavaScript code.  $eval <code>    Massannounce  Mass announce a message accross all guilds.  $massannounce <message>    Send  Send a message in any channel.  $send <channel> <message>    Updateuser  Update any user in the DEA database.  $updateuser <@user> <guild> <update>",
+            "title": "Botowners"
+        },
+        {
+            "location": "/commands/#crime",
+            "text": "Command  Description  Usage      Bully  Bully any user by changing their nickname.  $bully <@member> <nickname>",
+            "title": "Crime"
+        },
+        {
+            "location": "/commands/#gambling",
+            "text": "Command  Description  Usage      25+  Roll 25.00 or higher on a 100.00 sided die to win 0.2X your bet.  $25+ <bet>    55x2  Roll 55.0 or higher on a 100.00 sided die to win your bet.  $55x2 <bet>    75+  Roll 75.00 or higher on a 100.00 sided die to win 2.6X your bet.  $75+ <bet>    99+  Roll 99.00 or higher on a 100.00 sided die to win 90X your bet.  $99+ <bet>",
+            "title": "Gambling"
+        },
+        {
+            "location": "/commands/#general",
+            "text": "Command  Description  Usage      Cash  View the wealth of anyone.  $cash [@member]    Leaderboards  View the richest Drug Traffickers.  $leaderboards    Rank  View the rank of anyone.  $rank [@member]    Ranks  View all ranks in this guild.  $ranks    Transfer  Transfer money to any member.  $transfer <@member> <transfer>",
+            "title": "General"
+        },
+        {
+            "location": "/commands/#system",
+            "text": "Command  Description  Usage      Help  All command information.  $help [command]    Invite  Add DEA to your server.  $invite    Statistics  Statistics about DEA.  $statistics",
+            "title": "System"
+        }
+    ]
+}
