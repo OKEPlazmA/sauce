@@ -40,7 +40,7 @@ Once this is done, follow the these steps:
 
 2. Install git: https://git-scm.com/download/win
     
-3. Open command prompt inside of the DEA folder: http://bit.ly/2uIXO4p
+3. Open command prompt inside of the Sauce folder: http://bit.ly/2uIXO4p
     
 4. Enter `npm install --no-optional`
     
