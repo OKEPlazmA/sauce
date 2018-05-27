@@ -1,5 +1,8 @@
 <div align="center">
+     <br/>
      <a href="https://github.com/OKEPlazmA/sauce/"><img src="https://i.imgur.com/MhnGrQp.png" width="275" alt="Sauce, the Discord bot." /></a>
+     <br/>
+     <br/>
     <a href="https://discord.gg/TDWyfeR"><img src="https://discordapp.com/api/guilds/450093115978678273/embed.png" alt="Discord Server" /></a>
     <a href="https://david-dm.org/RealBlazeIt/dea"><img src="https://david-dm.org/RealBlazeIt/dea.svg" alt="Dependencies" /></a>
 </div>
